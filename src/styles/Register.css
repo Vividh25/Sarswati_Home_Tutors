@@ -1,0 +1,28 @@
+.register{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register > form > input{
+    border-radius: 5px;
+    border: 1px solid;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.register__form{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.register > form > button{
+    width:15%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    
+}

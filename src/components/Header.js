@@ -20,7 +20,9 @@ function Header() {
                         <Nav.Link href="/">Take Test</Nav.Link>
                     </Nav>
                     <Form inline>
-                        <Button variant="outline-success">Register</Button>
+                        <Button variant="outline-success" href="/register">
+                            Register
+                        </Button>
                     </Form>
                 </Navbar.Collapse>
             </Navbar>
