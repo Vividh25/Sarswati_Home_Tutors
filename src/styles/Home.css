@@ -1,26 +1,42 @@
-.about__us{
-    justify-content: center;
-    padding: 20px;
-    display: flex;
+.about__us {
+	justify-content: center;
+	padding: 20px;
+	display: flex;
 }
 
-.intro__left{
-    display: flex;
-    flex:1;
-    margin: 20px 0;
-    padding-right: 20px; 
+.intro__left {
+	display: flex;
+	flex: 1;
+	margin: 20px 0;
+	padding-right: 20px;
 }
-.intro__right{
-    display: flex;
-    flex:1;
-    margin: 20px 0;
-    padding-left: 20px;
-}
-
-.home > h1{
-   text-align: center;
+.intro__right {
+	display: flex;
+	flex: 1;
+	margin: 20px 0;
+	padding-left: 20px;
 }
 
-.home{
-    padding: 20px;
+.home > h1 {
+	text-align: center;
+}
+
+.home {
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.cards {
+	display: flex;
+	flex: 1;
+}
+
+.para {
+	margin-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.card__section {
+	margin-top: 60px;
 }
