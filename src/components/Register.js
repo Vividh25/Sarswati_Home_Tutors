@@ -21,10 +21,10 @@ function Register() {
 
         axios({
             method: "POST",
-            url: "http://localhost:3001/registrations",
+            url: "http://localhost:3002/send",
             data: {
-                Name: { name },
-                Email: { email },
+                name,
+                email,
             },
         }).then((response) => {
             if (response.data.status === "success") {
